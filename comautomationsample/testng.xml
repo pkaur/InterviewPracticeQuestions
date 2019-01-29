@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <parameter name="appURL" value="https://bluebottle.flipboard.com"/>
+    <parameter name="browserType" value="chrome"/>
+    <test name="sample test">
+        <classes>
+            <class name="tests.LaunchPageTest"/>
+            <class name="tests.SignInPageTest"/>
+        </classes>
+    </test>
+</suite>
